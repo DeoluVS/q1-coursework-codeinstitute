@@ -10,9 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Header</h1>
-        <h1>Shola Victor-Sajowa</h1>
-        <ul>
+        <ul class="nav-header">
+            <li><h1>Shola Victor-Sajowa</h1></li>
             <li><a>Home</a></li>
             <li><a>About</a></li>
             <li><a>Music</a></li>
@@ -22,11 +21,22 @@
     </header>
     <main>
         <h2>Main</h2>
-        <div>Carousel</div>
+        <div id="intro-section" class="page-header">
+            <div id="overlay">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error dolor, asperiores reprehenderit illum eum eveniet.</p>
+            </div>
+        </div>
         <div>Bio</div>
         <div>
-            <h3>Music</h3>
-            <div>Recent Singles</div>
+            <div id="singles-container">
+                <h3>Recent Singles</h3>
+                <div id="singles-row">
+                    <div class="single" id="single1"><img src="../assets/images/author-of-life.png"></div>
+                    <div class="single" id="single2"><img src="../assets/images/magnificent-god.png"></div>
+                    <div class="single" id="single3"><img src="../assets/images/my-name-is-favour.png"></div>
+                    <div class="single" id="single4"><img src="../assets/images/na-you-i-go-dey-vote.png"></div>
+                </div>
+            </div>
             <div>Albums</div>
             <div>Coming Soon</div>
         </div>
