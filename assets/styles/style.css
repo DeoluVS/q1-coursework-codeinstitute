@@ -79,7 +79,6 @@ main{
     margin: 1%;
     justify-content: center;
     gap: 10px;
-    background-color: white
 }
 
 .bio-box{
@@ -89,10 +88,15 @@ main{
     margin-right: 1%;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 750px){
     #bio-container{
-
+        flex-wrap: wrap;
     }
+}
+
+#lnkbtn1, #lnkbtn2{
+    background-color: purple;
+    border: 4px solid purple;
 }
 
 #singles-container > h3{
