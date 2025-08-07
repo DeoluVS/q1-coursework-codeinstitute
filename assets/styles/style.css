@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 header{
@@ -11,6 +11,11 @@ header{
 
 .nav-header > li{
     display: inline;
+}
+
+li > h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 main{
@@ -30,7 +35,43 @@ main{
 
 #overlay{
     height: inherit;
+    color: white;
+    font-weight: bold;
     background-color: rgba(0, 0, 0, 0.35);
+
+}
+
+#info-block{
+    display: block;
+    position: relative;
+    background-color: purple;
+    border-radius: 5%;
+    padding: 20px;
+    margin-right: 1%;
+    top: 200px;
+    width: 40%;
+    left: 30px;
+    top: 20px;
+    bottom: 0;
+}
+
+@media screen and (max-width: 750px) {
+    #info-block{
+        width: 50%;
+        
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #info-block{
+        display: block;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        max-width: 80vw;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
 }
 
 #singles-container > h3{
@@ -57,6 +98,11 @@ main{
 .single > img{
     width: 100%;
     height: auto;
+    transition: transform .4s;
+}
+
+.single > img:hover{
+    transform: scale(1.1);
 }
 
 @media screen and (max-width: 850px) {
