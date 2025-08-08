@@ -158,6 +158,20 @@ main{
     gap: 1%;
     margin-bottom: 1%;
 }
+
+#coming-soon-row{
+    display: flex;
+}
+
+@media screen and (max-width: 700px){
+    #coming-soon-row{
+        display: block;
+    }
+}
+
+.song-container{
+    width: 100%;
+}
 /*
 #single1{
     background-repeat: no-repeat;
