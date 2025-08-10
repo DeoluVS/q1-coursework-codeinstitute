@@ -325,6 +325,16 @@ main{
 .song-container{
     width: 100%;
 }
+
+.video-container{
+    margin: auto;
+    text-align: center;
+}
+
+.shola-yt{
+    text-decoration: none;
+    color: purple;
+}
 /*
 #single1{
     background-repeat: no-repeat;
