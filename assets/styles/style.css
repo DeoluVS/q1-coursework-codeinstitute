@@ -16,10 +16,11 @@ header{
     margin: 5px 0;
 }
 
-.nav-btn{
+.nav-btn-container{
     padding: 5px;
+    border: 2px solid black;
     border-radius: 8px;
-     
+    background-color: #ffffff;
 }
 
 .nav-headers{
@@ -69,6 +70,13 @@ header{
     line-height: 1.2;
 }
 
+.big-screen-nav > h2{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
 .small-screen-nav{
     display: none;
     padding: 0 32px;
@@ -109,12 +117,22 @@ li > h1{
     color: white;
 }
 
+li > h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
 li > a{
     text-decoration: none;
     color: white;
 }
 
 h1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 > a{
     text-decoration: none;
     color: white;
 }

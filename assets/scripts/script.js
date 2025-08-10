@@ -8,3 +8,8 @@ function showMenu(){
     }
     
 }
+
+function biggerText(){
+    console.log("BIG")
+    document.getElementsByTagName("p").style.fontSize = "x-large";
+}

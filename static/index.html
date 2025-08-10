@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/styles/style.css">
+    <script src="../assets/scripts/script.js"></script>
 </head>
 <body>
     <header>
@@ -26,11 +27,13 @@
         <nav class="small-screen-nav">
             <div class="small-header-group">
                 <h1 class="header-title"><a href="index.html">Shola Victor-Sajowa</a></h1>
-                <button class="nav-btn" onclick="showMenu()">
-                    <div class="menu-lines"></div>
-                    <div class="menu-lines"></div>
-                    <div class="menu-lines"></div>
-                </button> 
+                <div class="nav-btn-container">
+                  <a class="nav-btn" onclick="showMenu()">
+                      <div class="menu-lines"></div>
+                      <div class="menu-lines"></div>
+                      <div class="menu-lines"></div>
+                  </a>
+                </div>   
             </div>
             <div class="collapse-navbar" style="display: none;">
                 <ul class="simple-list collapse-items">
@@ -51,7 +54,10 @@
                 </div>
             </div>
         </div>
-        
+        <button onclick="biggerText()">
+          <h2>Make Text Bigger</h2>
+        </button>
+        <!--Contents of bio-container, singles-container, album-container and coming soon container is from the Bootstrap5 website.-->
         <div id="bio-container">
             <div class="card">
                 <div class="card-body bio-box">
@@ -81,82 +87,80 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div id="singles-container">
-                <h3>Recent Singles</h3>
-                <div id="singles-row">
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/author-of-life.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Author Of Life released in 2022. Click below for Spotify, YouTube and Apple Music.</p>
-                      </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/magnificent-god.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Magnificent God was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
-                      </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/my-name-is-favour.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">My Name is Favour was released in 2020. Click below for Spotify, YouTube and Apple Music.</p>
-                      </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/na-you-i-go-dey-vote.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Na You I Go Dey Vote was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
-                      </div>
-                    </div>
+        
+        <div id="singles-container">
+            <h3>Recent Singles</h3>
+            <div id="singles-row">
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/author-of-life.png" alt="Author Of Life" class="card-img-top single">
+                  <div class="card-body">
+                    <p class="card-text">Author Of Life released in 2022. Click below for Spotify, YouTube and Apple Music.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/magnificent-god.png " alt="Magnificent God" class="card-img-top single">
+                  <div class="card-body">
+                    <p class="card-text">Magnificent God was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/my-name-is-favour.png" alt="My Name Is Favour" class="card-img-top single">
+                  <div class="card-body">
+                    <p class="card-text">My Name is Favour was released in 2020. Click below for Spotify, YouTube and Apple Music.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/na-you-i-go-dey-vote.png" alt="Na You I Go Dey Vote" class="card-img-top single">
+                  <div class="card-body">
+                    <p class="card-text">Na You I Go Dey Vote was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
+                  </div>
                 </div>
             </div>
-            <div id="album-container">
-                <h3>Albums</h3>
-                <div id="albums-row">
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/as-love-demands.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">As Love Demands was released in 2011. Click below for YouTube, Spotify, Apple Music.</p>
-                      </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                      <img src="../assets/images/its-all-about-you.png" class="card-img-top single" alt="...">
-                      <div class="card-body">
-                        <p class="card-text">Its All About You was released in 2007. Click below for YouTube, Spotify, Apple Music.</p>
-                      </div>
-                    </div>
+        </div>
+        <div id="album-container">
+            <h3>Albums</h3>
+            <div id="albums-row">
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/as-love-demands.png" class="card-img-top single" alt="As Love Demands Album">
+                  <div class="card-body">
+                    <p class="card-text">As Love Demands was released in 2011. Click below for YouTube, Spotify, Apple Music.</p>
+                  </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                  <img src="../assets/images/its-all-about-you.png" class="card-img-top single" alt="Its All About You Album">
+                  <div class="card-body">
+                    <p class="card-text">Its All About You was released in 2007. Click below for YouTube, Spotify, Apple Music.</p>
+                  </div>
                 </div>
             </div>
-            <div id="coming-soon-container">
-                <h3>Coming Soon...</h3>
-                <p>Here are some songs that are still in the works but will be coming to all platforms in the near future.</p>
-                <div id="coming-soon-row">
-                  <div class="card song-container">
-                    <h5 class="card-header">Coming Soon...</h5>
-                    <div class="card-body">
-                      <h5 class="card-title">Heaven Sees You</h5>
-                      <p class="card-text">Release Date: TBC</p>
-                      <audio src="../assets/audio/heaven-sees-you-sneak-peak.mp3" loop controls>
-                        <span>Your browser doesn't support HTML5 audio:</span>
-                        <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3">Link to the audio</a>
-                      </audio>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="card song-container">
-                    <h5 class="card-header">Coming Soon...</h5>
-                    <div class="card-body">
-                      <h5 class="card-title">I hear the voice of God say</h5>
-                      <p class="card-text">Release Date: TBC</p>
-                      <audio src="../assets/audio/i-hear-the-voice-of-god-say.mp3" loop controls>
-                        <span>Your browser doesn't support HTML5 audio:</span>
-                        <a href="https://codeinstitute.s3.amazonaws.com/HTMLEssentials/kid-laughing.mp3">Link to the audio</a>
-                      </audio>
-                    </div>
-                  </div>
+        </div>
+        <div id="coming-soon-container">
+            <h3>Coming Soon...</h3>
+            <p>Here are some songs that are still in the works but will be coming to all platforms in the near future.</p>
+            <div id="coming-soon-row">
+              <div class="card song-container">
+                <h5 class="card-header">Coming Soon...</h5>
+                <div class="card-body">
+                  <h5 class="card-title">Heaven Sees You</h5>
+                  <p class="card-text">Release Date: TBC</p>
+                  <audio src="../assets/audio/heaven-sees-you-sneak-peak.mp3" loop controls>
+                    <span>Your browser doesn't support HTML5 audio:</span>
+                  </audio>
                 </div>
               </div>
+              <br>
+              <div class="card song-container">
+                <h5 class="card-header">Coming Soon...</h5>
+                <div class="card-body">
+                  <h5 class="card-title">I hear the voice of God say</h5>
+                  <p class="card-text">Release Date: TBC</p>
+                  <audio src="../assets/audio/i-hear-the-voice-of-god-say.mp3" loop controls>
+                    <span>Your browser doesn't support HTML5 audio:</span>
+                  </audio>
+                </div>
+              </div>
+            </div>
+        </div>
         
     </main>
     <hr>
@@ -164,11 +168,11 @@
         <div class="footer-block">
             <h5>Social Media</h5>
             <ul class="simple-list">
-                <li>Facebook: <span><a href="https://www.facebook.com/shola.ii/"><img src="../assets/images/facebook.png"></a></span></li>
-                <li>Instagram: <span><a href="https://www.instagram.com/sholavictorsajowa/"><img src="../assets/images/instagram.png"></a></span></li>
-                <li>Spotify: <span><a href="https://open.spotify.com/artist/4AQENezs7dEkQBNv7OR65w"><img src="../assets/images/spotify.png"></a></span></li>
-                <li>Twitter: <span><a href="https://x.com/sajsuccess"><img src="../assets/images/twitter.png"></a></span></li>
-                <li>YouTube: <span><a href="https://www.youtube.com/@sajsuccess"><img src="../assets/images/youtube.png"></a></span></li>
+                <li>Facebook: <span><a href="https://www.facebook.com/shola.ii/" target="_blank"><img src="../assets/images/facebook.png" alt="Facebook link"></a></span></li>
+                <li>Instagram: <span><a href="https://www.instagram.com/sholavictorsajowa/" target="_blank"><img src="../assets/images/instagram.png" alt="Instagram Link"></a></span></li>
+                <li>Spotify: <span><a href="https://open.spotify.com/artist/4AQENezs7dEkQBNv7OR65w" target="_blank"><img src="../assets/images/spotify.png" alt="Spotify Link"></a></span></li>
+                <li>Twitter: <span><a href="https://x.com/sajsuccess" target="_blank"><img src="../assets/images/twitter.png" alt="Twitter Link"></a></span></li>
+                <li>YouTube: <span><a href="https://www.youtube.com/@sajsuccess" target="_blank"><img src="../assets/images/youtube.png" alt="YouTube Link"></a></span></li>
             </ul>
         </div>
         <div class="footer-block">
@@ -182,6 +186,6 @@
             </ul>
         </div>
     </footer>
+    
 </body>
-<script src="../assets/scripts/script.js"></script>
 </html>
