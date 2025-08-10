@@ -367,6 +367,18 @@ footer{
     width: 50%;
 }
 
+.footer-links{
+    color: black;
+}
+
+.footer-links > li > a{
+    color: black;
+}
+
+.footer-links > li > a:hover{
+    color: purple;
+}
+
 .simple-list{
     list-style-type: none;
 }
