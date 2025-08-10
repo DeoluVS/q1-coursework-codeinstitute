@@ -13,6 +13,8 @@
 </head>
 <body>
     <header>
+        <!--Concepts for nav and collapsible menu was created by experimenting with javascript. Self-taught lessons and
+        used prior knowledge to make the menu. -->
         <nav class="big-screen-nav">
             <h1 class="header-title"><a href="index.html">Shola Victor-Sajowa</a></h1>
             <ul class="nav-headers" id="nav-list-contact">
@@ -54,9 +56,11 @@
                 </div>
             </div>
         </div>
+        <!--
         <button onclick="biggerText()">
           <h2>Make Text Bigger</h2>
         </button>
+        -->
         <!--Contents of bio-container, singles-container, album-container and coming soon container is from the Bootstrap5 website.-->
         <div id="bio-container">
             <div class="card">
@@ -83,11 +87,11 @@
                 <div class="card-body bio-box">
                   <h5 class="card-title">Recording Artist</h5>
                   <p class="card-text">Shola Victor-Sajowa has a plethroa of songs released into the world, blessing multiple generations with her God given gifts. She has so much more passion for music and will continue to write more and more songs. Click below to see more of her music.</p>
-                  <a href="#singles-row" class="btn btn-primary" id="lnkbtn2">Music</a>
+                  <a href="../static/music.html" class="btn btn-primary" id="lnkbtn2">Music</a>
                 </div>
             </div>
         </div>
-        
+        <!--This div from singles-row is a bootstrap 5 structure-->
         <div id="singles-container">
             <h3>Recent Singles</h3>
             <div id="singles-row">
@@ -95,28 +99,49 @@
                   <img src="../assets/images/author-of-life.png" alt="Author Of Life" class="card-img-top single">
                   <div class="card-body">
                     <p class="card-text">Author Of Life released in 2022. Click below for Spotify, YouTube and Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/album/03uPae9DiJFmLjIKsF42l0?si=aU6KMZAcTQqCA6qmPubaWQ" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.youtube.com/watch?v=-mDOEE9z_WE&si=OAODhGq-Mqk3Dsgv" target="_blank"><img src="../assets/images/youtube.png"></a>
+                      <a href="https://music.apple.com/us/album/author-of-life-single/1613425638" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                   <img src="../assets/images/magnificent-god.png " alt="Magnificent God" class="card-img-top single">
                   <div class="card-body">
                     <p class="card-text">Magnificent God was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/track/0R4AjELEcYoqIFR8LSTYOj?si=5828a347adbd4b51" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.youtube.com/watch?v=TSaOsTD5Jog&si=HXuEyuqXKt8wJwNb" target="_blank"><img src="../assets/images/youtube.png"></a>
+                      <a href="https://music.apple.com/us/song/magnificent-god/1128001074" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                   <img src="../assets/images/my-name-is-favour.png" alt="My Name Is Favour" class="card-img-top single">
                   <div class="card-body">
                     <p class="card-text">My Name is Favour was released in 2020. Click below for Spotify, YouTube and Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/track/5FNXr1Rb644rr2m8ovabW6?si=108ec706f11548dd" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.youtube.com/watch?v=Y7LhipzCGE8&si=smrJXUlz8-S-IFsF" target="_blank"><img src="../assets/images/youtube.png"></a>
+                      <a href="https://music.apple.com/us/song/my-name-is-favour/1545693541" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                   <img src="../assets/images/na-you-i-go-dey-vote.png" alt="Na You I Go Dey Vote" class="card-img-top single">
                   <div class="card-body">
                     <p class="card-text">Na You I Go Dey Vote was released in 2016. Click below for Spotify, YouTube and Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/album/0CLvKTZXsOoG5HW9b3WaE8?si=JoIsBX7sTLq_DybxkUcA2w" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.youtube.com/watch?v=Zd6SNmoI5h4&si=_dtfoGAIulc438dW" target="_blank"><img src="../assets/images/youtube.png"></a>
+                      <a href="https://music.apple.com/us/song/na-you-i-go-dey-vote/1128472693" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
             </div>
         </div>
+        <!--Contents of Album row is from bootstrap aside from the pcitures and links which were populated by me-->
         <div id="album-container">
             <h3>Albums</h3>
             <div id="albums-row">
@@ -124,16 +149,27 @@
                   <img src="../assets/images/as-love-demands.png" class="card-img-top single" alt="As Love Demands Album">
                   <div class="card-body">
                     <p class="card-text">As Love Demands was released in 2011. Click below for YouTube, Spotify, Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/album/60W60Gn3QAFQra49LojTul?si=pgJftkQuTwecs8jEASrSqw" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.apple.com/us/album/as-love-demands/709875162" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
                 <div class="card" style="width: 18rem;">
                   <img src="../assets/images/its-all-about-you.png" class="card-img-top single" alt="Its All About You Album">
                   <div class="card-body">
                     <p class="card-text">Its All About You was released in 2007. Click below for YouTube, Spotify, Apple Music.</p>
+                    <span>
+                      <a href="https://open.spotify.com/album/67Xbw7r5azDCur7U3u2ZjK?si=npsC1dOQQSai2NGKmldjOg" target="_blank"><img src="../assets/images/spotify.png"></a>
+                      <a href="https://music.youtube.com/playlist?list=OLAK5uy_nz5oJyqD_XpiTI5J0WNI0kUHJUwSlc9CU&si=hSjRvmlGoHEKwqoF" target="_blank"><img src="../assets/images/youtube.png"></a>
+                      <a href="https://music.apple.com/us/album/its-all-about-you/1543626000" target="_blank"><img src="../assets/images/apple.png"></a>
+                    </span>
                   </div>
                 </div>
             </div>
         </div>
+
+        <!--This is also from the card structure from Bootstrap5-->
         <div id="coming-soon-container">
             <h3>Coming Soon...</h3>
             <p>Here are some songs that are still in the works but will be coming to all platforms in the near future.</p>
