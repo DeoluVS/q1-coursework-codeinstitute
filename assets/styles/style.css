@@ -335,6 +335,40 @@ main{
     text-decoration: none;
     color: purple;
 }
+
+#music-platforms-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.music-platform{
+    display: block;
+    text-align: center;
+}
+
+.music-platform > a{
+    text-decoration: none;
+    color: black;
+}
+
+.music-platform > a:hover{
+    color: purple;
+}
+
+.music-platform > a > img{
+    max-width: 100px;
+    transition-timing-function: ease-in-out;
+}
+
+.music-platform > img:hover{
+    transform: scale(0.8);
+    transition: 0.3s;
+    
+}
+
+.ease-speed{
+    transition-timing-function: ease;
+}
 /*
 #single1{
     background-repeat: no-repeat;
