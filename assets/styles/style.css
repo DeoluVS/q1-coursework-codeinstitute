@@ -360,7 +360,7 @@ main{
     transition-timing-function: ease-in-out;
 }
 
-.music-platform > img:hover{
+.music-platform > a > img:hover{
     transform: scale(0.8);
     transition: 0.3s;
     
