@@ -12,14 +12,36 @@
 </head>
 <body>
     <header>
-        <ul class="nav-header">
-            <li><h1>Shola Victor-Sajowa</h1></li>
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Music</a></li>
-            <li><a>Videos</a></li>
-            <li><a>Contact Us</a></li>
-        </ul>
+        <nav class="big-screen-nav">
+            <h1 class="header-title">Shola Victor-Sajowa</h1>
+            <ul class="nav-headers" id="nav-list-contact">
+                <li><a href="index.html">Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Music</a></li>
+                <li><a>Videos</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+            
+        <nav class="small-screen-nav">
+            <div class="small-header-group">
+                <h1 class="header-title">Shola Victor-Sajowa</h1>
+                <button class="nav-btn" onclick="showMenu()">
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                    <div class="menu-lines"></div>
+                </button> 
+            </div>
+            <div class="collapse-navbar" style="display: none;">
+                <ul class="simple-list collapse-items">
+                    <li><a href="../static/index.html">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Music</a></li>
+                    <li><a>Videos</a></li>
+                    <li><a href="../static/contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
     </header>
     <main>
         <div id="intro-section" class="page-header">
@@ -48,7 +70,7 @@
                 <div class="card-body bio-box">
                   <h5 class="card-title">MC/Public Speaker</h5>
                   <p class="card-text">Shola Victor-Sajowa has many years of experience hosting and being an MC from Parties, Weddings, Anniversaries, Concerts and even plays. If you wish to enquire for an MC navigate to the Contact page or click the link below.</p>
-                  <a href="#" class="btn btn-primary" id="lnkbtn1">Contact Us</a>
+                  <a href="../static/contact.html" class="btn btn-primary" id="lnkbtn1">Contact Us</a>
                 </div>
             </div>
             <div class="card">
@@ -95,13 +117,13 @@
                     <div class="card" style="width: 18rem;">
                       <img src="../assets/images/as-love-demands.png" class="card-img-top single" alt="...">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">As Love Demands was released in 2011. Click below for YouTube, Spotify, Apple Music.</p>
                       </div>
                     </div>
                     <div class="card" style="width: 18rem;">
                       <img src="../assets/images/its-all-about-you.png" class="card-img-top single" alt="...">
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text">Its All About You was released in 2007. Click below for YouTube, Spotify, Apple Music.</p>
                       </div>
                     </div>
                 </div>
@@ -135,13 +157,31 @@
                   </div>
                 </div>
               </div>
-        <div>Enquiries</div>
+        
     </main>
+    <hr>
     <footer>
-        <h2>Footer</h2>
-        <div>Small Bio + Social Media</div>
-        <div>Quick Links</div>
-        <div>Contact Us</div>
+        <div class="footer-block">
+            <h5>Social Media</h5>
+            <ul class="simple-list">
+                <li>Facebook: <span><img src="../assets/images/facebook.png"></span></li>
+                <li>Instagram: <span><img src="../assets/images/instagram.png"></span></li>
+                <li>Spotify: <span><img src="../assets/images/spotify.png"></span></li>
+                <li>Twitter: <span><img src="../assets/images/twitter.png"></span></li>
+                <li>YouTube: <span><img src="../assets/images/youtube.png"></span></li>
+            </ul>
+        </div>
+        <div class="footer-block">
+            <h5>Quick Links</h5>
+            <ul class="simple-list">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Music</a></li>
+                <li><a>Videos</a></li>
+                <li><a>Contact Us</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
+<script src="../assets/scripts/script.js"></script>
 </html>
