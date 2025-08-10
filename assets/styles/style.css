@@ -114,6 +114,12 @@ li > a{
     color: white;
 }
 
+h1 > a{
+    text-decoration: none;
+    color: white;
+}
+
+
 .collapse-items> li:hover{
     background-color: #3C0061;
     transition: 0.4s;
@@ -202,6 +208,16 @@ main{
         box-sizing: border-box;
         overflow: hidden;
     }
+}
+
+#bio-top-row{
+    display: flex;
+}
+
+#bio-top-row > img{
+    height: 100%;
+    width: 100%;
+    max-width: 150px;
 }
 
 #bio-container{
