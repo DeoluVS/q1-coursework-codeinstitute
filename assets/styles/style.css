@@ -155,7 +155,7 @@ main{
 
 #submit-btn{
     background-color: purple;
-    border: 4px solid purple;
+    border: 4px solid white;
 }
 
 #intro-section{
@@ -245,7 +245,7 @@ main{
 
 #lnkbtn1, #lnkbtn2{
     background-color: purple;
-    border: 4px solid purple;
+    border: 4px solid white;
 }
 
 #singles-container > h3{
@@ -403,7 +403,6 @@ main{
 footer{
     display: flex;
     flex-wrap: wrap;
-    background-color: d;
     padding: 5px;
 }
 
