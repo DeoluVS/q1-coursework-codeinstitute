@@ -11,12 +11,36 @@ https://deoluvs.github.io/q1-coursework-codeinstitute/
 ```
 This is the interactible site where you won't need to use the development build and git clone the project. It works exactly the same way it would with the development build. 
 
-## Purpose for the Website
+## User Design and Experience
+Here I will be explaining all the things I have done to ensure the user has a good experience whilst navigating my website.
+
+### Purpose for the Website
 The main purpose for the website is to showcase my mum's talents, discography and videos. Also, being a good hotspot for users to gain access to the multiple forms of content she has created over the years which should be accessible through the music and videos pages. I have also added a form in which users can fill in a form if they would like to contact her. 
 
 The website was made as my mum asked me within the past few months that she wanted me to make her a website. This is due to her old website shutting down without her knowledge and the host of the website seemed to have lost contact. I wanted to step up and show off all the amazing additions she has made to the gospel scene in the UK. 
 
-## Checks for website consistency 
+### Designs
+Here is the basic wireframe for the landing page for my website:
+![Home page wireframe](/wireframes/index-page-wireframe.drawio.png)
+
+As you can see the website shows all the intended locations for all the data information that the user will see when they use my website. 
+
+Here is the wireframe for the `about.html` file which would be a mini biography about my mum. 
+![About page wireframe](/wireframes/about-html.drawio.png)
+
+Here is the wireframe for the `music.html` file which would be able to direct the user to all the platforms Shola Victor-Sajowa's music is on. 
+
+![Music page wireframe](/wireframes/music-html.drawio.png)
+
+Here is the wireframe for the `music.html` file which would showcase some of Shola Victor-Sajowa's previous music videos.
+
+![Vide page wireframe](/wireframes/music-html.drawio.png)
+
+Here is the wireframe for the `contact.html` file where the user can do enquiries and there will be a form to fill on the webpage. 
+
+![Contact page wireframe](/wireframes/contact-page.drawio.png)
+
+### Checks for website consistency 
 When making the website I had to make sure that I adhered to a certain structure that would give a user a favourable experience when viewing the website. First of all when making the website, I decided to choose colours that would be visible to the user as best as possible whilst keeping in line with the stakeholders wishes. As my mum loves purples and blues I used purple white and the occasional blues as the base colours for the website. Here's the **`index.html`** page for reference: 
 ![Index.html](/important-pics/index-html-screenshot.png)
 
