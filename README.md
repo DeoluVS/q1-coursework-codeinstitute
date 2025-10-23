@@ -44,25 +44,61 @@ The audience are fans, collaborators, worship leaders, event organisers and anyo
 - As a worship leader, I want to collaborate with Shola Victor-Sajowa and invite her to work her on a new project.
 
 ### Designs
+#### Home page wireframe
 Here is the basic wireframe for the landing page for my website:
-![Home page wireframe](/wireframes/homepage-wireframe-q1-coursework.drawio.png) 
 
+Mobile
+
+![Home page wireframe](/wireframes/homepage-wireframe-q1-coursework.drawio.png)
+
+Desktop
+
+![Home page desktop](/wireframes/home-page-desktop.drawio.png)
 As you can see the website shows all the intended locations for all the data information that the user will see when they use my website. 
 
+#### About page wireframe
 Here is the wireframe for the `about.html` file which would be a mini biography about my mum. 
+
+Mobile
+
 ![About page wireframe](/wireframes/about-html.drawio.png)
 
+Desktop
+
+![About page desktop](/wireframes/about-html-desktop.drawio.png)
+
+#### Music page wireframe 
 Here is the wireframe for the `music.html` file which would be able to direct the user to all the platforms Shola Victor-Sajowa's music is on. 
+
+Mobile 
 
 ![Music page wireframe](/wireframes/music-html.drawio.png)
 
-Here is the wireframe for the `music.html` file which would showcase some of Shola Victor-Sajowa's previous music videos.
+Desktop 
 
-![Vide page wireframe](/wireframes/videos-html.drawio.png)
+![Music page desktop wireframe](/wireframes/music-html-desktop.drawio.png)
 
+#### Videos page wireframe
+Here is the wireframe for the `videos.html` file which would showcase some of Shola Victor-Sajowa's previous music videos.
+
+Mobile
+
+![Video page wireframe](/wireframes/videos-html.drawio.png)
+
+Desktop
+
+![Video page wireframe](/wireframes/vidoes-html-desktop.drawio.png)
+
+#### Contact page wireframe
 Here is the wireframe for the `contact.html` file where the user can do enquiries and there will be a form to fill on the webpage. 
 
+Mobile
+
 ![Contact page wireframe](/wireframes/contact-page.drawio.png)
+
+Desktop
+
+![Contact page desktop](/wireframes/contact-page-desktop.drawio.png)
 
 #### Colour palette
 For this website I will be using a combination of purple, blue, white and black. This is to ensure that there is enough contrast between all the colours on the website. It is also to ensure it is inline with Shola Victor-Sajowa's wants for the website using her favourite colour as the primary colour for the website. I will also be using an off-white colour of some sort whether that be `gainsboro` or `whitesmoke` just so its not a white and purple background. It will be a little softer on the eyes and will help make a solid enough distinction between white elements and the body background colour.
@@ -120,7 +156,7 @@ Download video for Proof of flow using this path:
 
 There are a few things that need to be shown for this website to be up to par and I will show you all the steps taken to ensure that all requirements are met. 
 
-### L2.1 - Website with 3 Webpages
+### L2.1 - Website with 5 Webpages
 So I ensured that there was 5 webpages connected to this website which are:
 - **`index.html`**
 - **`about.html`**
