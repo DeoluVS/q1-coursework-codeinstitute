@@ -14,14 +14,38 @@ This is the interactible site where you won't need to use the development build 
 ## User Design and Experience
 Here I will be explaining all the things I have done to ensure the user has a good experience whilst navigating my website.
 
-### Purpose for the Website
+### Purpose for the Website and Project Goals
 The main purpose for the website is to showcase my mum's talents, discography and videos. Also, being a good hotspot for users to gain access to the multiple forms of content she has created over the years which should be accessible through the music and videos pages. I have also added a form in which users can fill in a form if they would like to contact her. 
 
 The website was made as my mum asked me within the past few months that she wanted me to make her a website. This is due to her old website shutting down without her knowledge and the host of the website seemed to have lost contact. I wanted to step up and show off all the amazing additions she has made to the gospel scene in the UK. 
 
+#### User Goals
+The audience are fans, collaborators, worship leaders, event organisers and anyone who wants to know more about Shola Victor-Sajowa. The goals for the user is to:
+- Have a way to contact Shola Victor-Sajowa 
+- Listen to her music
+- Watch her music videos
+- Access to her music on different music platforms
+- See her biography
+- Updates on her upcoming projects
+
+#### Developer Goals
+- Have a website that has clear design and easy to navigate website for the user. 
+- Make the website show off Shola Victor-Sajowa's personality and showcase all of her content in easy and accessible ways. 
+- Showcase any new projects to interest the user on any new and upcoming projects. 
+- Ensure that all data being collected from the form is validated well enough to ensure that any fields not filled is rectified before being stored. 
+
+#### User Stories
+- As a creator, I want to showcase all of my content to users and where to find my music videos, music and social media pages. 
+- As a fan, I want to see all the latest music and videos being created by Shola Victor-Sajowa.
+- As a fan, I want to see all of Shola Victor-Sajowa's social media links.
+- As a prospective customer, I want to make an enquiry for Shola Victor-Sajowa or MCJolly to be at my even as an MC
+- As a prospective customer, I want to make an enquiry to invite Shola Victor-Sajowa as a guest artist at my concert. 
+- As a fan, I want to learn about Shola Victor-Sajowa's life story and how she grew up. 
+- As a worship leader, I want to collaborate with Shola Victor-Sajowa and invite her to work her on a new project.
+
 ### Designs
 Here is the basic wireframe for the landing page for my website:
-![Home page wireframe](/wireframes/index-page-wireframe.drawio.png)
+![Home page wireframe](/wireframes/homepage-wireframe-q1-coursework.drawio.png) 
 
 As you can see the website shows all the intended locations for all the data information that the user will see when they use my website. 
 
@@ -34,20 +58,14 @@ Here is the wireframe for the `music.html` file which would be able to direct th
 
 Here is the wireframe for the `music.html` file which would showcase some of Shola Victor-Sajowa's previous music videos.
 
-![Vide page wireframe](/wireframes/music-html.drawio.png)
+![Vide page wireframe](/wireframes/videos-html.drawio.png)
 
 Here is the wireframe for the `contact.html` file where the user can do enquiries and there will be a form to fill on the webpage. 
 
 ![Contact page wireframe](/wireframes/contact-page.drawio.png)
 
-### User Stories
-- As a creator, I want to showcase all of my content to users and where to find my music videos, music and social media pages. 
-- As a fan, I want to see all the latest music and videos being created by Shola Victor-Sajowa.
-- As a fan, I want to see all of Shola Victor-Sajowa's social media links.
-- As a prospective customer, I want to make an enquiry for Shola Victor-Sajowa or MCJolly to be at my even as an MC
-- As a prospective customer, I want to make an enquiry to invite Shola Victor-Sajowa as a guest artist at my concert. 
-- As a fan, I want to learn about Shola Victor-Sajowa's life story and how she grew up. 
-- As a worship leader, I want to collaborate with Shola Victor-Sajowa and invite her to work her on a new project.
+#### Colour palette
+For this website I will be using a combination of purple, blue, white and black. This is to ensure that there is enough contrast between all the colours on the website. It is also to ensure it is inline with Shola Victor-Sajowa's wants for the website using her favourite colour as the primary colour for the website. I will also be using an off-white colour of some sort whether that be `gainsboro` or `whitesmoke` just so its not a white and purple background. It will be a little softer on the eyes and will help make a solid enough distinction between white elements and the body background colour.
 
 ### Checks for website consistency 
 When making the website I had to make sure that I adhered to a certain structure that would give a user a favourable experience when viewing the website. First of all when making the website, I decided to choose colours that would be visible to the user as best as possible whilst keeping in line with the stakeholders wishes. As my mum loves purples and blues I used purple white and the occasional blues as the base colours for the website. Here's the **`index.html`** page for reference: 
