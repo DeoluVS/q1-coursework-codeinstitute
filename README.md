@@ -40,6 +40,15 @@ Here is the wireframe for the `contact.html` file where the user can do enquirie
 
 ![Contact page wireframe](/wireframes/contact-page.drawio.png)
 
+### User Stories
+- As a creator, I want to showcase all of my content to users and where to find my music videos, music and social media pages. 
+- As a fan, I want to see all the latest music and videos being created by Shola Victor-Sajowa.
+- As a fan, I want to see all of Shola Victor-Sajowa's social media links.
+- As a prospective customer, I want to make an enquiry for Shola Victor-Sajowa or MCJolly to be at my even as an MC
+- As a prospective customer, I want to make an enquiry to invite Shola Victor-Sajowa as a guest artist at my concert. 
+- As a fan, I want to learn about Shola Victor-Sajowa's life story and how she grew up. 
+- As a worship leader, I want to collaborate with Shola Victor-Sajowa and invite her to work her on a new project.
+
 ### Checks for website consistency 
 When making the website I had to make sure that I adhered to a certain structure that would give a user a favourable experience when viewing the website. First of all when making the website, I decided to choose colours that would be visible to the user as best as possible whilst keeping in line with the stakeholders wishes. As my mum loves purples and blues I used purple white and the occasional blues as the base colours for the website. Here's the **`index.html`** page for reference: 
 ![Index.html](/important-pics/index-html-screenshot.png)
