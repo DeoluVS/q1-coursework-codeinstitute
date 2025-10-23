@@ -4,8 +4,12 @@
 git clone https://github.com/DeoluVS/q1-coursework-codeinstitute.git
 ```
 
-
-
+## Deployment 
+It is possible to view the website using this url:
+```
+https://deoluvs.github.io/q1-coursework-codeinstitute/
+```
+This is the interactible site where you won't need to use the development build and git clone the project. It works exactly the same way it would with the development build. 
 
 ## Purpose for the Website
 The main purpose for the website is to showcase my mum's talents, discography and videos. Also, being a good hotspot for users to gain access to the multiple forms of content she has created over the years which should be accessible through the music and videos pages. I have also added a form in which users can fill in a form if they would like to contact her. 
